@@ -1,26 +1,192 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/* ============================================
+   ESTILOS GLOBALES PARA UNIDADES ICSE
+   ============================================ */
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer utilities {
+  /* Contenedor principal de cada unidad */
+  .unidad-container {
+    @apply min-h-screen bg-gray-50;
   }
-}
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  .unidad-content {
+    @apply container mx-auto px-4 py-8 max-w-4xl;
+  }
+
+  /* Título principal de la unidad */
+  .unidad-titulo {
+    @apply text-3xl md:text-4xl font-bold text-gray-900 mb-6;
+  }
+
+  /* ============================================
+     SECCIONES DE GUÍAS
+     ============================================ */
+  
+  .guia-section {
+    @apply bg-white rounded-lg shadow-md p-6 mb-6;
+  }
+
+  /* Títulos de guías con colores distintivos */
+  .guia-titulo-blue {
+    @apply text-2xl md:text-3xl font-bold text-blue-800 mb-4 border-b-2 border-blue-200 pb-2;
+  }
+
+  .guia-titulo-purple {
+    @apply text-2xl md:text-3xl font-bold text-purple-800 mb-4 border-b-2 border-purple-200 pb-2;
+  }
+
+  .guia-titulo-green {
+    @apply text-2xl md:text-3xl font-bold text-green-800 mb-4 border-b-2 border-green-200 pb-2;
+  }
+
+  .guia-titulo-red {
+    @apply text-2xl md:text-3xl font-bold text-red-800 mb-4 border-b-2 border-red-200 pb-2;
+  }
+
+  .guia-titulo-indigo {
+    @apply text-2xl md:text-3xl font-bold text-indigo-800 mb-4 border-b-2 border-indigo-200 pb-2;
+  }
+
+  .guia-titulo-orange {
+    @apply text-2xl md:text-3xl font-bold text-orange-800 mb-4 border-b-2 border-orange-200 pb-2;
+  }
+
+  /* Objetivo de la guía */
+  .guia-objetivo {
+    @apply mb-4;
+  }
+
+  .guia-objetivo-titulo {
+    @apply text-lg md:text-xl font-semibold text-gray-800 mb-2;
+  }
+
+  .guia-objetivo-texto {
+    @apply text-gray-700 leading-relaxed;
+  }
+
+  /* ============================================
+     CAJAS DE CONTENIDO
+     ============================================ */
+
+  /* Contenedor de conceptos */
+  .conceptos-container {
+    @apply space-y-4;
+  }
+
+  /* Caja gris básica (neutral) */
+  .concepto-box {
+    @apply bg-gray-50 p-4 rounded;
+  }
+
+  /* Título del concepto */
+  .concepto-titulo {
+    @apply font-semibold text-gray-900 mb-2;
+  }
+
+  /* Texto del concepto */
+  .concepto-texto {
+    @apply text-gray-700;
+  }
+
+  /* ============================================
+     CAJAS CON BORDES DE COLORES (DESTACADAS)
+     ============================================ */
+
+  .concepto-box-blue {
+    @apply bg-blue-50 p-4 rounded border-l-4 border-blue-500;
+  }
+
+  .concepto-box-green {
+    @apply bg-green-50 p-4 rounded border-l-4 border-green-500;
+  }
+
+  .concepto-box-red {
+    @apply bg-red-50 p-4 rounded border-l-4 border-red-500;
+  }
+
+  .concepto-box-yellow {
+    @apply bg-yellow-50 p-4 rounded border-l-4 border-yellow-500;
+  }
+
+  .concepto-box-purple {
+    @apply bg-purple-50 p-4 rounded border-l-4 border-purple-500;
+  }
+
+  .concepto-box-indigo {
+    @apply bg-indigo-50 p-4 rounded border-l-4 border-indigo-500;
+  }
+
+  .concepto-box-orange {
+    @apply bg-orange-50 p-4 rounded border-l-4 border-orange-500;
+  }
+
+  /* ============================================
+     TABLAS
+     ============================================ */
+
+  .tabla-container {
+    @apply overflow-x-auto;
+  }
+
+  .tabla-titulo {
+    @apply font-semibold text-gray-900 mb-3;
+  }
+
+  .tabla {
+    @apply min-w-full bg-white border border-gray-300 rounded;
+  }
+
+  /* Headers de tabla con diferentes colores */
+  .tabla-header-blue {
+    @apply bg-blue-100;
+  }
+
+  .tabla-header-purple {
+    @apply bg-purple-100;
+  }
+
+  .tabla-header-red {
+    @apply bg-red-100;
+  }
+
+  .tabla-header-green {
+    @apply bg-green-100;
+  }
+
+  .tabla-th {
+    @apply px-4 py-3 border-b text-left font-semibold text-gray-800;
+  }
+
+  .tabla-td {
+    @apply px-4 py-3 border-b;
+  }
+
+  .tabla-td-bold {
+    @apply px-4 py-3 border-b font-semibold;
+  }
+
+  .tabla-row {
+    @apply hover:bg-gray-50;
+  }
+
+  /* ============================================
+     SUBTÍTULOS Y SECCIONES
+     ============================================ */
+
+  .subseccion-titulo {
+    @apply text-xl font-bold text-gray-900 mt-6 mb-3;
+  }
+
+  /* ============================================
+     LISTAS
+     ============================================ */
+
+  .lista-ordenada {
+    @apply list-decimal list-inside space-y-1 text-gray-700 mt-2;
+  }
+
+  .lista-desordenada {
+    @apply list-disc list-inside space-y-1 text-gray-700 mt-2;
+  }
 }

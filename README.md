@@ -1,36 +1,169 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ICSE - Introducción a la Sociedad y el Estado
 
-## Getting Started
+Sitio web educativo para la materia **Introducción a la Sociedad y el Estado (ICSE)** de **UBA XXI**, **Cátedra Denkberg**.
 
-First, run the development server:
+Este proyecto proporciona contenido organizado y accesible de las 6 unidades del programa de la materia, diseñado para facilitar el estudio de los estudiantes.
 
+## 🎓 Sobre el Proyecto
+
+ICSE es una aplicación web desarrollada con **Next.js 16** que presenta el contenido académico de manera estructurada, responsive y fácil de navegar. El sitio incluye material teórico organizado por unidades y guías de lectura.
+
+## 🚀 Tecnologías
+
+- **[Next.js 16.1.6](https://nextjs.org/)** - Framework de React para aplicaciones web
+- **[React 19.2.3](https://react.dev/)** - Biblioteca para interfaces de usuario
+- **[TypeScript 5](https://www.typescriptlang.org/)** - Tipado estático para JavaScript
+- **[Tailwind CSS 4](https://tailwindcss.com/)** - Framework de CSS utility-first
+- **[ESLint](https://eslint.org/)** - Linter para mantener calidad de código
+
+## 📚 Contenido
+
+### Unidad 1: Conceptos y definiciones acerca de la relación entre la Sociedad y el Estado
+- Guía 1: La sociedad, el Estado y las instituciones (Yannuzzi)
+- Guía 2: Conceptualización del Estado (Gómez Talavera)
+- Guía 3: Tipos de Estado (García)
+- Guía 4: Regímenes Políticos (Povse)
+- Guía 5: La Poliarquía (Batlle)
+
+### Unidades 2-6
+En construcción 🚧
+
+## 🛠️ Instalación
+
+### Prerrequisitos
+
+- Node.js 20 o superior
+- npm, yarn, pnpm o bun
+
+### Pasos
+
+1. **Clonar el repositorio**
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <url-del-repositorio>
+cd icse
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Instalar dependencias**
+```bash
+npm install
+# o
+yarn install
+# o
+pnpm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. **Ejecutar en modo desarrollo**
+```bash
+npm run dev
+# o
+yarn dev
+# o
+pnpm dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. **Abrir en el navegador**
+```
+http://localhost:3000
+```
 
-## Learn More
+## 📦 Scripts Disponibles
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run dev      # Inicia el servidor de desarrollo
+npm run build    # Construye la aplicación para producción
+npm run start    # Inicia el servidor de producción
+npm run lint     # Ejecuta el linter
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📂 Estructura del Proyecto
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+icse/
+├── app/
+│   ├── layout.tsx          # Layout principal con Navbar
+│   ├── page.tsx            # Página de inicio
+│   ├── globals.css         # Estilos globales
+│   └── unidad/
+│       ├── 1/
+│       │   └── page.tsx    # Contenido Unidad 1
+│       ├── 2/
+│       │   └── page.tsx    # Contenido Unidad 2 (en construcción)
+│       ├── 3/
+│       │   └── page.tsx    # Contenido Unidad 3 (en construcción)
+│       ├── 4/
+│       │   └── page.tsx    # Contenido Unidad 4 (en construcción)
+│       ├── 5/
+│       │   └── page.tsx    # Contenido Unidad 5 (en construcción)
+│       └── 6/
+│           └── page.tsx    # Contenido Unidad 6 (en construcción)
+├── components/
+│   └── Navbar.tsx          # Componente de navegación responsive
+├── public/                 # Archivos estáticos
+├── package.json
+├── tsconfig.json
+└── README.md
+```
 
-## Deploy on Vercel
+## 🎨 Características
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- ✅ **Diseño Responsive**: Optimizado para móviles, tablets y escritorio
+- ✅ **Navegación Intuitiva**: Navbar con menú hamburguesa en móviles
+- ✅ **Organización por Unidades**: Contenido estructurado y fácil de seguir
+- ✅ **Código con Colores**: Diferentes colores para cada guía y conceptos importantes
+- ✅ **Tablas Responsive**: Scroll horizontal en pantallas pequeñas
+- ✅ **Tipografía Escalable**: Se adapta según el tamaño de pantalla
+- ✅ **Modo Oscuro**: (Próximamente)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🌐 Navegación
+
+El sitio cuenta con las siguientes rutas:
+
+- `/` - Página de inicio con resumen de la materia
+- `/unidad/1` - Unidad 1 (disponible)
+- `/unidad/2` - Unidad 2 (en construcción)
+- `/unidad/3` - Unidad 3 (en construcción)
+- `/unidad/4` - Unidad 4 (en construcción)
+- `/unidad/5` - Unidad 5 (en construcción)
+- `/unidad/6` - Unidad 6 (en construcción)
+
+## 🤝 Contribuir
+
+Las contribuciones son bienvenidas. Para cambios importantes:
+
+1. Fork el proyecto
+2. Crea una rama para tu feature (`git checkout -b feature/NuevaCaracteristica`)
+3. Commit tus cambios (`git commit -m 'Agregar nueva característica'`)
+4. Push a la rama (`git push origin feature/NuevaCaracteristica`)
+5. Abre un Pull Request
+
+## 📝 Roadmap
+
+- [x] Página de inicio
+- [x] Navbar responsive
+- [x] Unidad 1 completa
+- [ ] Unidades 2-6
+- [ ] Modo oscuro
+- [ ] Búsqueda de contenido
+- [ ] Exportar a PDF
+- [ ] Versión imprimible
+
+## ⚠️ Disclaimer
+
+Este es un proyecto educativo no oficial creado como material de apoyo para estudiantes de ICSE - UBA XXI. 
+
+**No reemplaza la bibliografía oficial ni las clases de la cátedra.** Se recomienda complementar este material con:
+- La bibliografía oficial de la materia
+- Las clases virtuales de la Cátedra Denkberg
+- Los materiales disponibles en el campus de UBA XXI
+
+## 📄 Licencia
+
+Este proyecto es de código abierto y está disponible bajo la licencia MIT.
+
+## 👤 Autor
+
+Proyecto desarrollado por *[Antony Cabeza](https://instagram.com/ajcrauseo)* para facilitar el estudio de ICSE en UBA XXI.
+
+---
+
+**⭐ Si este proyecto te resulta útil, considera darle una estrella en GitHub!**
