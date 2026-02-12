@@ -25,7 +25,11 @@ ICSE es una aplicación web desarrollada con **Next.js 16** que presenta el cont
 - Guía 4: Regímenes Políticos (Povse)
 - Guía 5: La Poliarquía (Batlle)
 
-### Unidades 2-6
+### Unidad 2: El orden conservador (1880-1916)
+- Guía de lectura: Romero, Cap. I
+- Guías de lectura: Romero, Cap. II, Hora - Los gobiernos radicales
+
+### Unidades 3-6
 En construcción 🚧
 
 ## 🛠️ Instalación
@@ -87,7 +91,7 @@ icse/
 │       ├── 1/
 │       │   └── page.tsx    # Contenido Unidad 1
 │       ├── 2/
-│       │   └── page.tsx    # Contenido Unidad 2 (en construcción)
+│       │   └── page.tsx    # Contenido Unidad 2
 │       ├── 3/
 │       │   └── page.tsx    # Contenido Unidad 3 (en construcción)
 │       ├── 4/
@@ -120,7 +124,7 @@ El sitio cuenta con las siguientes rutas:
 
 - `/` - Página de inicio con resumen de la materia
 - `/unidad/1` - Unidad 1 (disponible)
-- `/unidad/2` - Unidad 2 (en construcción)
+- `/unidad/2` - Unidad 2 (disponible)
 - `/unidad/3` - Unidad 3 (en construcción)
 - `/unidad/4` - Unidad 4 (en construcción)
 - `/unidad/5` - Unidad 5 (en construcción)
@@ -141,7 +145,8 @@ Las contribuciones son bienvenidas. Para cambios importantes:
 - [x] Página de inicio
 - [x] Navbar responsive
 - [x] Unidad 1 completa
-- [ ] Unidades 2-6
+- [x] Unidad 2 completa
+- [ ] Unidades 3-6
 - [ ] Modo oscuro
 - [ ] Búsqueda de contenido
 - [ ] Exportar a PDF

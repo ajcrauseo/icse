@@ -11,10 +11,10 @@ export default function Home() {
     },
     {
       numero: 2,
-      titulo: "Unidad 2",
-      descripcion: "Contenido en construcción",
-      guias: [],
-      disponible: false
+      titulo: "El orden conservador (1880-1916)",
+      descripcion: "Consolidación del Estado nacional, modelo agroexportador y transformaciones políticas.",
+      guias: ["Romero Cap. I",  "Romero Cap. II", "Roy Hora"],
+      disponible: true
     },
     {
       numero: 3,
