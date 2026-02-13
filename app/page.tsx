@@ -11,17 +11,17 @@ export default function Home() {
     },
     {
       numero: 2,
-      titulo: "El orden conservador (1880-1916)",
+      titulo: "El orden conservador (1880-1916) y los gobiernos radicales (1916-1930)",
       descripcion: "Consolidación del Estado nacional, modelo agroexportador y transformaciones políticas.",
       guias: ["Romero Cap. I",  "Romero Cap. II", "Roy Hora"],
       disponible: true
     },
     {
       numero: 3,
-      titulo: "Unidad 3",
-      descripcion: "Contenido en construcción",
-      guias: [],
-      disponible: false
+      titulo: "La restauración conservadora (1930-1943) y los gobiernos peronistas (1943-1955)",
+      descripcion: "Análisis de la inestabilidad política tras el golpe de 1930, el fraude patriótico y la conformación del Estado social durante el peronismo.",
+      guias: ["Romero Cap. III", "Deich", "Romero Cap. IV", "Petrino"],
+      disponible: true
     },
     {
       numero: 4,
