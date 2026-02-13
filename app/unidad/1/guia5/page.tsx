@@ -21,7 +21,7 @@ export default function Unidad1Guia5() {
         </div>
 
         <h1 className="unidad-titulo">
-          Unidad 1 - Guía 5: La Poliarquía
+          Unidad 1 - Guía 5: Los sistemas políticos contemporáneos
         </h1>
 
         <section className="guia-section">

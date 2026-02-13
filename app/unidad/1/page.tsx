@@ -52,7 +52,7 @@ export default function Unidad1Hub() {
     },
     {
       id: 5,
-      titulo: "La Poliarquía",
+      titulo: "Los sistemas políticos contemporáneos",
       autor: "Batlle",
       ruta: "/unidad/1/guia5",
       estilos: {

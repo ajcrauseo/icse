@@ -30,12 +30,16 @@ export default function Unidad1Guia4() {
           </h2>
 
           <div className="conceptos-container">
+            <h3 className="guia-objetivo-titulo">Introducción</h3>
+
             <div className="concepto-box">
-              <h4 className="concepto-titulo">Polisémico</h4>
+              <h4 className="concepto-titulo">Régimen Político - Polisémico</h4>
               <p className="concepto-texto">
                 Porque tiene múltiples significados dependiendo de si se analiza desde lo jurídico, lo político o lo sociológico.
               </p>
             </div>
+
+
 
             <div className="concepto-box">
               <h4 className="concepto-titulo">Poder</h4>
@@ -45,6 +49,7 @@ export default function Unidad1Guia4() {
               </p>
             </div>
 
+            <h3 className="guia-objetivo-titulo">¿Cuáles son los tipos de régimen político?</h3>
             <div className="concepto-box">
               <h4 className="concepto-titulo">Categorías y tipos ideales</h4>
               <p className="concepto-texto">
@@ -87,12 +92,16 @@ export default function Unidad1Guia4() {
               </p>
             </div>
 
+            <h3 className="guia-objetivo-titulo">Regímenes políticos con adjetivos</h3>
+
             <div className="concepto-box">
               <h4 className="concepto-titulo">Subtipos</h4>
               <p className="concepto-texto">
                 Democracia liberal, democracia participativa, dictaduras militares, totalitarismos.
               </p>
             </div>
+
+            <h3 className="guia-objetivo-titulo">Regímenes híbridos</h3>
 
             <div className="concepto-box-purple">
               <h4 className="concepto-titulo">Tercer tipo ideal</h4>
@@ -108,6 +117,9 @@ export default function Unidad1Guia4() {
                 libertad civil (parece autoritarismo).
               </p>
             </div>
+
+            <h3 className="guia-objetivo-titulo">¿Cómo se transforma un &quot;régimen político&quot; en otro?</h3>
+
 
             <div className="concepto-box">
               <h4 className="concepto-titulo">Transición</h4>
