@@ -54,6 +54,12 @@ export default function Navbar() {
                 Unidad {numero}
               </Link>
             ))}
+            <Link
+              href="/cronologia"
+              className="px-3 py-2 rounded bg-blue-700 hover:bg-blue-600 transition font-semibold"
+            >
+              Cronología
+            </Link>
           </div>
         </div>
 
@@ -79,6 +85,23 @@ export default function Navbar() {
                   </svg>
                 </Link>
               ))}
+              <Link
+                href="/cronologia"
+                className="group flex items-center justify-between w-full bg-blue-700 hover:bg-blue-600 text-white font-bold py-4 px-5 rounded-xl transition-all duration-200 active:scale-95 shadow-md mt-2"
+                onClick={() => setIsOpen(false)}
+              >
+                <span className="text-lg">Cronología Principal</span>
+                <svg 
+                  xmlns="http://www.w3.org/2000/svg" 
+                  className="h-6 w-6 text-blue-200 group-hover:text-white transition-colors" 
+                  viewBox="0 0 24 24" 
+                  fill="none" 
+                  stroke="currentColor" 
+                  strokeWidth="2"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </Link>
             </div>
           </div>
         )}
