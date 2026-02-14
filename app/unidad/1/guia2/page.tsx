@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import GuideNav from '@/app/components/GuideNav';
 
 export default function Unidad1Guia2() {
   return (
@@ -287,6 +288,17 @@ export default function Unidad1Guia2() {
               </svg>
             </Link>
           </div>
+          
+          <GuideNav
+            prev={{
+              title: "Conceptualización del Estado",
+              href: "/unidad/1/guia1"
+            }}
+            next={{
+              title: "Tipos de Estado",
+              href: "/unidad/1/guia3"
+            }}
+          />
         </section>
       </div>
     </div>

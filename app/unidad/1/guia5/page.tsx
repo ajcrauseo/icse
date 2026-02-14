@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import GuideNav from '@/app/components/GuideNav';
 
 export default function Unidad1Guia5() {
   return (
@@ -101,6 +102,13 @@ export default function Unidad1Guia5() {
               </p>
             </div>
           </div>
+          
+          <GuideNav
+            prev={{
+              title: "Regímenes Políticos",
+              href: "/unidad/1/guia4"
+            }}
+          />
         </section>
       </div>
     </div>
