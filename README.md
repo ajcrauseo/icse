@@ -29,7 +29,20 @@ ICSE es una aplicación web desarrollada con **Next.js 16** que presenta el cont
 - Guía de lectura: Romero, Cap. I
 - Guías de lectura: Romero, Cap. II, Hora - Los gobiernos radicales
 
-### Unidades 3-6
+### Unidad 3: La restauración conservadora (1930-1943) y el peronismo clásico (1943-1955)
+- Parte 1: La Restauración Conservadora (1930-1943)
+  - Guía 1: Romero Cap. III
+  - Guía 2: Golpes de Estado (Deich)
+- Parte 2: El Peronismo Clásico (1943-1955)
+  - Guía 3: Romero Cap. IV
+  - Guía 4: Populismo (Petrino)
+
+### Unidad 4: El empate (1955-1966) - Dependencia o Liberación (1966-1976)
+- Guía 1: El empate (1955-1966) - Romero Cap. V
+- Guía 2: Dependencia o Liberación (1966-1976) - Romero Cap. VI
+- Guía 3: Orientaciones desde la Unidad 1
+
+### Unidades 5-6
 En construcción 🚧
 
 ## 🛠️ Instalación
@@ -93,9 +106,9 @@ icse/
 │       ├── 2/
 │       │   └── page.tsx    # Contenido Unidad 2
 │       ├── 3/
-│       │   └── page.tsx    # Contenido Unidad 3 (en construcción)
+│       │   └── page.tsx    # Contenido Unidad 3 
 │       ├── 4/
-│       │   └── page.tsx    # Contenido Unidad 4 (en construcción)
+│       │   └── page.tsx    # Contenido Unidad 4 
 │       ├── 5/
 │       │   └── page.tsx    # Contenido Unidad 5 (en construcción)
 │       └── 6/
@@ -125,8 +138,8 @@ El sitio cuenta con las siguientes rutas:
 - `/` - Página de inicio con resumen de la materia
 - `/unidad/1` - Unidad 1 (disponible)
 - `/unidad/2` - Unidad 2 (disponible)
-- `/unidad/3` - Unidad 3 (en construcción)
-- `/unidad/4` - Unidad 4 (en construcción)
+- `/unidad/3` - Unidad 3 (disponible)
+- `/unidad/4` - Unidad 4 (disponible)
 - `/unidad/5` - Unidad 5 (en construcción)
 - `/unidad/6` - Unidad 6 (en construcción)
 
@@ -146,7 +159,9 @@ Las contribuciones son bienvenidas. Para cambios importantes:
 - [x] Navbar responsive
 - [x] Unidad 1 completa
 - [x] Unidad 2 completa
-- [ ] Unidades 3-6
+- [x] Unidad 3 completa
+- [x] Unidad 4 completa
+- [ ] Unidades 5-6
 - [ ] Modo oscuro
 - [ ] Búsqueda de contenido
 - [ ] Exportar a PDF

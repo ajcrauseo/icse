@@ -18,17 +18,17 @@ export default function Home() {
     },
     {
       numero: 3,
-      titulo: "La restauración conservadora (1930-1943) y los gobiernos peronistas (1943-1955)",
+      titulo: "La restauración conservadora (1930-1943) y Peronismo Clásico (1943-1955)",
       descripcion: "Análisis de la inestabilidad política tras el golpe de 1930, el fraude patriótico y la conformación del Estado social durante el peronismo.",
       guias: ["Romero Cap. III", "Deich", "Romero Cap. IV", "Petrino"],
       disponible: true
     },
     {
       numero: 4,
-      titulo: "Unidad 4",
-      descripcion: "Contenido en construcción",
-      guias: [],
-      disponible: false
+      titulo: "El empate (1955-1966) y Dependencia o Liberación (1966-1976)",
+      descripcion: "El bloqueo político post-peronista, el desarrollismo, la radicalización política y el tercer peronismo.",
+      guias: ["Romero Cap. V", "Romero Cap. VI", "Orientaciones Teóricas"],
+      disponible: true
     },
     {
       numero: 5,
