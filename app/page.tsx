@@ -32,10 +32,10 @@ export default function Home() {
     },
     {
       numero: 5,
-      titulo: "Unidad 5",
-      descripcion: "Contenido en construcción",
-      guias: [],
-      disponible: false
+      titulo: "De la violencia política al terrorismo de Estado (1976-1983)",
+      descripcion: "Análisis del golpe de 1976, el Proceso de Reorganización Nacional, el terrorismo de Estado y el plan económico de Martínez de Hoz.",
+      guias: ["Romero Cap. VII", "Etchevest"],
+      disponible: true
     },
     {
       numero: 6,

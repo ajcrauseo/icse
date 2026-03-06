@@ -42,7 +42,11 @@ ICSE es una aplicación web desarrollada con **Next.js 16** que presenta el cont
 - Guía 2: Dependencia o Liberación (1966-1976) - Romero Cap. VI
 - Guía 3: Orientaciones desde la Unidad 1
 
-### Unidades 5-6
+### Unidad 5: De la violencia política al terrorismo de Estado (1976-1983)
+- Guía 1: El Proceso (1976-1983) - Romero Cap. VII
+- Guía 2: El Terrorismo de Estado (Etchevest)
+
+### Unidad 6
 En construcción 🚧
 
 ## 🛠️ Instalación
@@ -110,7 +114,9 @@ icse/
 │       ├── 4/
 │       │   └── page.tsx    # Contenido Unidad 4 
 │       ├── 5/
-│       │   └── page.tsx    # Contenido Unidad 5 (en construcción)
+│       │   ├── page.tsx    # Hub de la Unidad 5
+│       │   ├── guia1/      # Guía 1: El Proceso
+│       │   └── guia2/      # Guía 2: El Terrorismo de Estado
 │       └── 6/
 │           └── page.tsx    # Contenido Unidad 6 (en construcción)
 ├── components/
@@ -140,7 +146,7 @@ El sitio cuenta con las siguientes rutas:
 - `/unidad/2` - Unidad 2 (disponible)
 - `/unidad/3` - Unidad 3 (disponible)
 - `/unidad/4` - Unidad 4 (disponible)
-- `/unidad/5` - Unidad 5 (en construcción)
+- `/unidad/5` - Unidad 5 (disponible)
 - `/unidad/6` - Unidad 6 (en construcción)
 
 ## 🤝 Contribuir
@@ -161,7 +167,8 @@ Las contribuciones son bienvenidas. Para cambios importantes:
 - [x] Unidad 2 completa
 - [x] Unidad 3 completa
 - [x] Unidad 4 completa
-- [ ] Unidades 5-6
+- [x] Unidad 5 completa
+- [ ] Unidad 6
 - [ ] Modo oscuro
 - [ ] Búsqueda de contenido
 - [ ] Exportar a PDF

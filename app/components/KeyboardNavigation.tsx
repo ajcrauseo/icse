@@ -24,6 +24,8 @@ const guideNavigation: GuideConfig = {
   '/unidad/4/guia1': { next: '/unidad/4/guia2' },
   '/unidad/4/guia2': { prev: '/unidad/4/guia1', next: '/unidad/4/relacion-conceptos' },
   '/unidad/4/relacion-conceptos': { prev: '/unidad/4/guia2' },
+  '/unidad/5/guia1': { next: '/unidad/5/guia2' },
+  '/unidad/5/guia2': { prev: '/unidad/5/guia1' },
 };
 
 export default function KeyboardNavigation() {
